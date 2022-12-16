@@ -53,3 +53,34 @@
     left: 100px;
     top: 60px;
 }
+
+.contenedor {
+    /* Posición relativo a la posición normal */
+    position: relative;
+    /* Tamaño de la imagen */
+    width: 512px;
+    height: 375px;
+}
+
+.texto-izquierda-abajo {
+    /* Posicionamiento absoluto a la imagen */
+    position: absolute;
+    /* Offset */
+    bottom: 8px;
+    left: 16px;
+}
+
+.texto-centrado {
+    /* Posicionamiento absoluto a la imagen */
+    position: absolute;
+    /* Offset */
+    top: 50%;
+    width: 100%;
+    /* Centrar texto */
+    text-align: center;
+}
+
+img {
+    /* Opacidad imagen */
+    opacity: 0.3;
+}
