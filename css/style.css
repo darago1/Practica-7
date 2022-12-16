@@ -1,0 +1,55 @@
+/* Primer gran bloque */
+.azul {
+    background-color: blue;
+    /* Tamaño del bloque */
+    height: 120px;
+    width: 160px;
+    /* Especificar posicionamiento */
+    top: 40px;
+    left: 20px;
+    /* Como posicionar el elemento */
+    position: absolute;
+    /* Especificar el orden en los que aparecen los elementos posicionados */
+    z-index: 2;
+}
+
+/* Bloque dentro del bloque azul */
+.amarillo {
+    background-color: yellow;
+    /* Especificar posicionamiento */
+    height: 40px;
+    width: 40px;
+    /* Posicionamiento relativo al elemento del qual pertenece */
+    position: relative;
+    /* Al qual debemos pasar un offset para el posicionamiento */
+    left: 20px;
+    top: 20px;
+}
+
+/* Segundo gran bloque */
+.rojo {
+    background-color: red;
+    /* Tamaño del bloque */
+    height: 120px;
+    width: 160px;
+    /* Como posicionar el elemento */
+    position: absolute;
+    /* Especificar posicionamiento */
+    left: 100px;
+    top: 140px;
+    /* Especificar el orden en los que aparecen los elementos posicionados */
+    z-index: 1;
+}
+
+/* Bloque dentro del bloque rojo */
+.verde {
+    background-color: green;
+    /* Tamaño del bloque */
+    height: 40px;
+    width: 40px;
+    /* Posicionamiento relativo al elemento del qual pertenece */
+    position: relative;
+    /* Al qual debemos pasar un offset para el posicionamiento */
+    left: 100px;
+    top: 60px;
+}
